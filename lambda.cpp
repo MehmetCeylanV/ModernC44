@@ -10,6 +10,7 @@ private:
 public:
     void something()
     {
+        //capture this
         [this](){cout << "Class A: "<< a << b << endl;}();
     }
 };
